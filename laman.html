@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nama Toko Anda</title>
+    <link rel="stylesheet" href="edit.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="https://png.pngtree.com/png-clipart/20211023/ourmid/pngtree-ar-logo-template-png-image_4003158.png" alt="Logo Toko Anda">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Beranda</a></li>
+                <li><a href="#products">Produk</a></li>
+                <li><a href="#contact">Kontak</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h1>Selamat Datang di Toko Saya</h1>
+        <p>Jika ingin mencari yang terbaik, semuanya ada di dia:<</p>
+    </section>
+
+    <section id="products">
+        <h2>Macam - macam Produk Saya</h2>
+        <div class="product" id="product1">
+            <img src="agil.jpg" alt="Produk 1">
+            <h3>Bro Agil</h3>
+            <p>Muke die garang... Tapi hati die baiiikkk...</p>
+            <p>Harga: Rp 100.000</p>
+            <button onclick="addToCart('Produk 1', 100000)">Beli Sekarang</button>
+        </div>
+        <div class="product" id="product2">
+            <img src="faqih.jpg" alt="Produk 2">
+            <h3>Mas Faqih</h3>
+            <p>Tipe-tipe calon Suami Idaman Masa Depan, Paket komplit pokokna mahh</p>
+            <p>Harga: Rp 200.000</p>
+            <button onclick="addToCart('Produk 2', 200000)">Beli Sekarang</button>
+        </div>
+        <div class="product" id="product3">
+            <img src="agus.jpg" alt="Produk 3">
+            <h3>Aguuuusss</h3>
+            <p>Tidak semua agus buruk kok teman-teman</p>
+            <p>Harga: Rp 50.000</p>
+            <button onclick="addToCart('Produk 2', 200000)">Beli Sekarang</button>
+        </div>
+        <!-- Tambahkan lebih banyak produk sesuai kebutuhan -->
+    </section>
+
+    <section id="contact">
+        <tr>
+            <td>
+                <h2>Kontak Kami</h2>
+                <p>Email: adr.rmd.11@gmail.com</p> 
+                <p>Telepon: 0858-1324-3265</p>
+            </td>
+        </tr>
+        
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Nama Toko Anda. Semua hak dilindungi.</p>
+    </footer>
+
+    <script src="laman.js"></script>
+</body>
+</html>
